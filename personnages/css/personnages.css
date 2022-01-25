@@ -9,14 +9,38 @@
     height: 100vh;
 }
 
-.droite{
-    position: absolute;
-    bottom: 5%;
-    right: 5%;
+#scarlet{
+    background-image: url("../images/scarlet.jpg");
+    background-size: 100%;
+    height: 100vh;
 }
 
-.gauche{
-    position: absolute;
-    bottom: 5%;
-    left: 5%;
+#captain{
+    background-image: url("../images/captain-america.jpg");
+    background-size: 100%;
+    height: 100vh;
+}
+
+#thor{
+    background-image: url("../images/thor.jpg");
+    background-size: 100%;
+    height: 100vh;
+}
+
+#blackwidow{
+    background-image: url("../images/blackwidow.jpg");
+    background-size: 100%;
+    height: 100vh;
+}
+
+#thanos{
+    background-image: url("../images/thanos.jpg");
+    background-size: 100%;
+    height: 100vh;
+}
+
+#strange{
+    background-image: url("../images/strange.jpg");
+    background-size: 100%;
+    height: 100vh;
 }
