@@ -14,7 +14,22 @@
     background-size: cover;
     height: 100vh;
 }
-
+#scarlet>section>div>div>div>.flip{
+    bottom: 35vh; 
+    left:55vw;
+}
+#spiderman>section>div>div>div>.flip{
+    bottom: 35vh;
+}
+#blackwidow>section>div>div>div>.flip{
+    bottom: 35vh;
+}
+#thor>section>div>div>div>.flipright{
+    bottom: 50vh;
+}
+#captain>section>div>div>div>.flip{
+    bottom: 35vh;
+}
 #captain{
     background-image: url("../images/captain-america.jpg");
     background-size: cover;
