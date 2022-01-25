@@ -1,3 +1,4 @@
+
 #ironman{
     background-image: url("../images/ironman-carousel.jpg");
 }
@@ -29,6 +30,10 @@
 }
 #strange{
   background-image: url("../images/strange-carousel.jpg");
+  background-size:cover;
+}
+#spiderman{
+  background-image: url("../images/spiderman-carousel.jpg");
   background-size:cover;
 }
 body{
@@ -151,8 +156,6 @@ body{
   
   .module-section{
     max-width: 100%;
-   
-    
     overflow: hidden;
     overflow-x:scroll;
     border-left:1px solid #fff;
@@ -161,7 +164,7 @@ body{
   }
   
   ul{
-  width:600em;
+  width:150em;
   list-style-type:none;
   padding:50px 0 50px 0;
   
