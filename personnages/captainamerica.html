@@ -13,6 +13,14 @@
     <link rel="stylesheet" href="css/cardflip.css">
 </head>
 <body>
+    <nav>
+        <div class="logo">
+            <a href="../index.html">Mar<em>vel</em></a>
+        </div>
+        <div class="menu-icon">
+            <span></span>
+        </div>
+    </nav>
     <div id="captain" class="w-100">
         <section>
             <div class="container">
@@ -48,6 +56,25 @@
         </section>
     </div>
 
+    <section class="overlay-menu">
+        <div class="container">
+            <div class="row">
+                <div class="main-menu">
+                    <ul>
+                        <li>
+                            <a href="../index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="film.html">Film </a>
+                        </li>
+                        <li>
+                            <a href="../personnages/index_personnages.html">Personnage </a>
+                        </li>
+                </div>
+            </div>
+        </div>
+    </section>
+
     
 <script>document.querySelector(".card-flip").classList.toggle("flip");
 
@@ -62,6 +89,10 @@ document.addEventListener("keypress", function(event){
 });
 
 </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
 <script src="js/rickroll.js"></script>
 </body>
 </html>
