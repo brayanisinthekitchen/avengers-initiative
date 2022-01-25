@@ -48,8 +48,4 @@
   .back {
     transform: rotateY(180deg);
   }
-
-  #desc{
-      text-align: justify;
-      font-size: 12px;
-  }
+ 

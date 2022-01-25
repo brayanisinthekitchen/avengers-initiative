@@ -1,60 +1,63 @@
+
+
 #ironman{
-    background-image: url("../images/ironman.jpg");
+    background-image: url("../images/ironman-carousel.jpg");
     background-size: cover;
     height: 100vh;
 }
 #loki{
-    background-image: url("../images/61ee8ddfc68c2.jpg");
+    background-image: url("../images/loki-carousel.jpg");
     background-size: cover;
     height: 100vh;
 }
 
 #scarlet{
-    background-image: url("../images/scarlet.jpg");
+    background-image: url("../images/scarlet-carousel.jpg");
     background-size: cover;
     height: 100vh;
 }
 
 #captain{
-    background-image: url("../images/captain-america.jpg");
+    background-image: url("../images/captain-carousel.jpg");
     background-size: cover;
     height: 100vh;
 }
 
 #thor{
-    background-image: url("../images/thor.jpg");
+    background-image: url("../images/thor-carousel.jpg");
     background-size: cover;
     height: 100vh;
 }
 
 #blackwidow{
-    background-image: url("../images/blackwidow.jpg");
+    background-image: url("../images/blackwidow-carousel.jpg");
     background-size: cover;
     height: 100vh;
 }
 
 #thanos{
-    background-image: url("../images/thanos.jpg");
+    background-image: url("../images/thanos-carousel.jpg");
     background-size: cover;
     height: 100vh;
 }
 
 #strange{
-    background-image: url("../images/strange.jpg");
+    background-image: url("../images/strange-carousel.jpg");
     background-size: cover;
     height: 100vh;
 }
 
 #spiderman{
-    background-image: url("../images/spiderman.jpg");
+    background-image: url("../images/spiderman-carousel.jpg");
     background-size: cover;
     height: 100vh;
 }
 
 #desc{
-    text-align: justify;
-    font-size: 12px;
+  text-align: justify;
+  font-size: 20px;
 }
+
 /* Nav Bar */
 
 nav .logo {

@@ -158,12 +158,12 @@ body{
   .module-section{
     max-width: 100%;
     overflow: hidden;
-    overflow-x:scroll;
+    overflow-y:scroll;
     
   }
   
   ul{
-  width:250em;
+  width:100vw;
   list-style-type:none;
   padding:50px 0 50px 0;
   
@@ -173,6 +173,7 @@ body{
   
   #content{
     position:relative;
+    width: 100vw;
   }
   
   /*
@@ -214,12 +215,13 @@ body{
   
   
   .card{
-    width: 20vw;
-    height:350px;
+    width: 75vw;
+    height:90vh;
     background:#fff;
     float:left;
-    margin-right:10px;
-    margin-bottom:50px;
+    margin-left:15vw;
+    margin-right:10vw;
+    margin-bottom:5vh;
     cursor:pointer;
     transform: scale(1);
     visibility:visible;
@@ -362,23 +364,23 @@ nav {
   left: 0;
   top: 0;
   height: 100%;
-  overflow-y: auto;
+  overflow-X: auto;
   -webkit-overflow-scrolling: touch;
   width: 100%;
   padding: 50px 0;
   opacity: 0;
   text-align: center;
-  transform: translateY(-100%);
+  transform: translateX(-100%);
   transition: all 0.5s;
 }
 
 .overlay-menu.open {
   opacity: 1;
-  transform: translateY(0%);
+  transform: translateX(0%);
 }
 
 .overlay-menu .main-menu {
-  transform: translateY(50%);
+  transform: translateX(50%);
   opacity: 0;
   transition: all 0.3s;
   transition-delay: 0s;
