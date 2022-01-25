@@ -703,3 +703,32 @@ h2{
 	background:#990e13;
 	text-decoration: none;
 }
+
+@media only screen and (max-width: 1000px) {
+	.moviesPart{
+		height: 110vh;
+	}
+	h2{
+		font-size: 28px;
+	}
+	.movies{
+		flex-direction: column;
+		align-items: center;
+		height: 1200px;
+	}
+	.mov{
+		width: 80%;
+	}
+	.movie4{
+		background-position: bottom;
+	}
+	.movie5, .movie8{
+		background-position: 50% 80%;
+	}
+	.movie6, .movie7{
+		background-position: 50% 85%;
+	}
+	.movie10{
+		background-position: 50% 30%;
+	}
+  }
