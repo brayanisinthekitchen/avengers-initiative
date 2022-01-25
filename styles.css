@@ -612,13 +612,13 @@
 /*partie films */
 
 .moviesPart{
-	height: 100vh;
+	height: 102vh;
 	display: flex;
 	flex-direction: column;
 	color: white;
 }
 h2{
-	margin-top: 30px ;
+	margin-top: 15px ;
 	text-align: center;
 	font-size: 30px;
 }
@@ -629,7 +629,7 @@ h2{
 	justify-content: space-around;
 	height: 320px;
 	width: 100%;
-	margin-top: 10px;
+	margin-top: 5px;
 }
 
 .mov{
@@ -687,4 +687,19 @@ h2{
 .movie10{
 	background-image: url('https://fr.web.img6.acsta.net/pictures/14/03/12/13/11/301792.jpg');
 	background-position: center;
+}
+
+.buttonLine{
+	display: flex;
+	justify-content: center;
+	margin-top: 15px ;
+}
+.button{
+	padding:10px;
+	border: none;
+	border-radius: 33px;
+	font-size: 18px;
+	color: white;
+	background:#990e13;
+	text-decoration: none;
 }
