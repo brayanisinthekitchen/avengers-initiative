@@ -8,4 +8,5 @@ document.addEventListener("keypress", function(event){
    if(pressed.includes("rickroll")){
        rickroll.play()
    }
+
 });

@@ -5,6 +5,32 @@
     background-image: url("../images/loki-carousel.jpg"); 
     background-size:cover;
 }
+#scarlet{
+    background-image: url("../images/scarlet-carousel.jpg");
+    background-size:cover;
+}
+#captain{
+  background-image: url("../images/captain-carousel.jpg");
+  background-size:cover;
+}
+
+#blackwidow{
+  background-image: url("../images/blackwidow-carousel.jpg");
+  background-size:cover;
+}
+
+#thor{
+  background-image: url("../images/thor-carousel.jpg");
+  background-size:cover;
+}
+#thanos{
+  background-image: url("../images/thanos-carousel.jpg");
+  background-size:cover;
+}
+#strange{
+  background-image: url("../images/strange-carousel.jpg");
+  background-size:cover;
+}
 body{
     background:#fff;
     

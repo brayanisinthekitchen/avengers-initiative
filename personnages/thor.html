@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Thor</title>
+	<meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/personnages.css">
+    <link rel="stylesheet" href="css/cardflip.css">
+</head>
+<body>
+    <div id="thor" class="w-100">
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-lg-4 shadow rounded">
+                        <!-- Card Flip -->
+                        <div class="card-flip">
+                            <div class="flipright" style="left:50vw;">
+                                <div class="front frontright">
+                                    <!-- front content -->
+                                    <div class="card">
+                                      <div class="card-block m-3 mt-2">
+                                        <p class="card-title h6 text-muted">Citation:</p>
+                                       <p class="card-text text-center"><strong><cite><q>- C’est mon frère.<br>
+                                        - Il a tué 80 personnes en deux jours.<br>
+                                        - Il a été adopté…</q></cite></strong> <br>Thor & Natasha Romanoff parlant de Loki </p>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="back backright">
+                                    <!-- back content -->
+                                    <div class="card">
+                                      <div class="card-block m-3 mt-2">
+                                        <p class="card-title h6 text-muted">Description du personnage:</p>
+                                        <p id="desc" class="card-text">Thor Odinson est le dieu asgardien du tonnerre, l'ancien roi d'Asgard est un membre fondateur des Avengers. Lorsque son comportement irresponsable et impétueux a relancé un conflit entre Asgard et Jotunheim, il s'est vu refuser le droit de devenir roi, privé de son pouvoir et banni de la Terre par Odin. Pendant son exil sur Terre, il a appris l'humilité, trouvant l'amour avec Jane Foster, et a aidé à sauver ses nouveaux amis du destructeur envoyé par Loki. En raison de son acte désintéressé de sacrifice, Thor s'est racheté aux yeux de son père et a obtenu son pouvoir une fois de plus, qu'il a ensuite utilisé pour vaincre les plans de Loki.
+
+                                        </p>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Card Flip -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    
+<script>document.querySelector(".card-flip").classList.toggle("flip");
+</script>
+<script src="js/rickroll.js"></script>
+</body>
+</html>
